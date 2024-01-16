@@ -66,19 +66,11 @@ gap: 24px;
 background: rgba(255, 255, 255, 0.30);
 
 
-Show 3 more colors
-
-Frame
-Icon · 24 x 24
-
-Frame
-Icon · 24 x 24
-
 
 }
 .input select{
     margin-right: 10px;
-    width: 174px;
+    width: 150px;
 height: 52px;
 border-radius: 8px;
 
@@ -170,144 +162,133 @@ line-height: 26px;
 }
 .welcome-image img{
     width: 540px;
-    height: 550px;
+    height: 600px;
 }
+
+.line1{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+
 .choose-us{
     justify-content: center;
     text-align: center;
 }
+.choose-us h1{
+    color: #131318;
+
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 30px;
+}
+.choose-us p{
+    color: rgba(19, 19, 24, 0.70);
+
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 30px;
+}
 .coose-card{
- width: 573px;
+ width: 50%;
 height: 284px;
 border-radius: 16px;
 border: 1px solid rgba(251, 181, 99, 0.20);
 background: rgba(251, 181, 99, 0.05);
+padding: 20px;
 }
+.coose-card h2{
+    color: #131318;
 
-
-.cs{
-color: #070211;
-font-family: Merriweather;
-font-size: 48px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-text-transform: capitalize;
-}
-.cs-offer{
- color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px;
-}
-.year{
-color: #F00;
-font-family: Inter;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
-.portfilio-container{
-    background-image: none;
-    margin-bottom: 50px;
-}
-#portfolio-main{
-    margin-bottom: 750px;
-}
-.portfolio-head{
- color: #F00;
-font-family: Inter;
+text-align:;
+font-family: Mulish;
 font-size: 24px;
 font-style: normal;
-font-weight: 500;
-line-height: normal;
-}
-.portfolio-title{
-color: #070211;
-font-family: Merriweather;
-font-size: 48px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-text-transform: capitalize;
-}
-.gift-item{
-display:flex;
+font-weight: 800;
 margin-top: 20px;
+margin-bottom: 20px;
+}
+.coose-card p{
+color: #5A5A5D;
 
-justify-content: space-between;
-
-}
-.gift-item img:hover{
-    -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-}
-.gift-item img{
-    width: 480px;
-}
-.subscribe-con{
-border-radius: 16px;
-background: rgba(255, 0, 0, 0.05);
-margin: 20px 140px;
-
-}
-.sub-main{
-    align-items: center;
-    text-align: center;
-    padding: 50px 0;
-}
-.sub-heading{
-color: #070211;
-text-align: center;
-font-family: Merriweather;
-font-size: 48px;
+font-family: Mulish;
+font-size: 16px;
 font-style: normal;
-font-weight: 900;
-line-height: normal;
-text-transform: capitalize;
+font-weight: 400;
+line-height: 26px;
 }
-#email{
-    border-radius: 30px 0 0 30px ;
-    padding: 15px;
-    border: white;
-    
+.coose-content{
+    display: flex;
+    justify-content: space-between;
+
+gap: 50px;
 }
-.sub-mail{
-    text-align: center;
-    justify-content: center;
-    padding-bottom: 30px;
-    margin-bottom: 60px;
+.card-2{
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+
+background: rgba(41, 206, 246, 0.05);
 }
-.sub-button{
-padding: 14px;
-background-color: red;
-border-radius: 0 30px 30px 0;
-color: black;
+.card-3{
+    margin: 30px auto;
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+
+background: rgba(233, 68, 68, 0.05);
 }
-.sub-button button{
-    color: black;
-    background: red;
-    border: none;
-}
+
+
+
+
 .footer{
     height: 700px;
-    background: #070211;
+    background: rgba(19, 19, 24, 0.05);
     margin: 0;
 }
+.ft{
+    display: flex;
+    justify-content: center;
+}
+.ft h2{
+    font-family: Mulish;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.new{
+    color: #FF5400;
 
+}
+.footer-des{
+ color: #5A5A5D;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+margin-top: 30px;
+}
 .footer-top{
-    justify-content: space-between;
-     display: flex;
-     color: white;
+    text-align: center;
+    
      padding: 140px;
 }
+
 .footer-bottom{
-    justify-content: space-between;
+    justify-content: center;
      display: flex; 
-     color: white;
+     
     padding: 140px 140px 0 140px;
     margin: 0;
 }
