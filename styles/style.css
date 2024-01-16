@@ -174,7 +174,25 @@ line-height: 26px;
     width: 540px;
     height: 600px;
 }
+.img-container{
+    position: relative;
+    width: 50%;
+}
+.img-container img{
+    width: 100%;
+}
 
+.overlay{
+    position: absolute;
+    color: white;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .line1{
     display: flex;
     justify-content: center;
@@ -359,6 +377,15 @@ flex-shrink: 0;
     margin-top: 50px;
 }
 
+.download-img{
+display: flex;
+justify-content: center;
+gap: 50px;
+}
+.download-img img{
+    width: 120px;
+    height: 80px;
+}
 
 .footer{
     height: 700px;
@@ -459,6 +486,7 @@ flex-direction: column;
 
 .newsteter-main{
     flex-direction: column;
+    margin-left: 20px;
 }
 
 
@@ -487,9 +515,17 @@ flex-shrink: 0;
 
 .download-app{
    margin-top: 350px;
-   padding-bottom: 130px;
+   padding-bottom: 150px;
+   height: 350px;
 }
-
+.img-container{
+    width: 100%;
+}
+.download-img{
+    flex-direction: column;
+    margin-left: 70px;
+    padding-bottom: 100px;
+}
 
 
 
