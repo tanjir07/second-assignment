@@ -31,7 +31,7 @@ body{
     color: orangered;
 }
 .main-container{
-    background-image:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/assets/Group\ 13\ \(1\)\ \(1\).png");
+    background-image:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/assets/group-13.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
@@ -168,7 +168,16 @@ line-height: 26px;
 .line1{
     display: flex;
     justify-content: center;
-    gap: 200px;
+    gap: 24px;
+    width: 100%;
+    margin-top: 24px;
+   
+}
+.line2{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 24px;
 }
 
 
