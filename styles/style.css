@@ -18,10 +18,19 @@ body{
     justify-content: space-between;
     margin: 50px 140px;
 }
-.nav-list li{
+.dextop li{
     list-style: none;
     margin-right: 30px;
     
+}
+.dextop{
+    display: flex;
+    
+}
+.mobile li{
+    list-style: none;
+    margin-right: 30px;
+    display: none;
 }
 .nav-list {
     display: flex;
@@ -77,13 +86,13 @@ border-radius: 8px;
 }
 .input input{
     margin-right: 10px;
-    width: 174px;
+    width: 150px;
     height: 52px;
     border-radius: 8px;
 }
 .input button{
    
-    width: 174px;
+    width: 150px;
     height: 52px;
     border-radius: 8px;
 }
@@ -105,6 +114,7 @@ margin-top: 30px;
     align-items: flex-start;
     justify-content: space-between;
     margin: 50px 140px;
+    gap: 20px;
 }
 .welcome-body{
     padding-left: 0px;
@@ -306,4 +316,52 @@ margin-top: 30px;
     padding: 30px;
     justify-content: center;
     gap: 10px;
+}
+
+@media  (max-width: 600px) {
+
+    .mobile li{
+        display: block;
+    }
+    .dextop li{
+        display: none;
+}
+.input{
+    flex-direction: column;
+   
+}
+.main-container{
+    height: 900px;
+}
+.welcome-content{
+    flex-direction: column;
+
+}
+.welcome-body{
+    width: 100%;
+    text-align: center;
+}
+.welcome-image img{
+    width: 300px;
+    height: 300px;
+}
+.coose-content{
+    flex-direction: column;
+    justify-content: center;
+}
+.coose-card{
+    width: 100%%;
+   height: 600px;
+   margin-left: 40px;
+}
+.card-3{
+    margin: 30px 0;
+    margin-left: 40px;
+}
+.line1{
+    flex-direction: column;
+}
+.line2{
+flex-direction: column;
+}
 }
