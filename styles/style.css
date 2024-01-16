@@ -344,6 +344,20 @@ flex-shrink: 0;
 
 }
 
+.download-app{
+    text-align: center;
+    background: rgb(134, 134, 180);
+    margin-top: 20px;
+    height: 300px;
+    padding-top: 30px;
+
+}
+.download-app h5{
+    margin: 20px 0;
+}
+.download-app h1{
+    margin-top: 50px;
+}
 
 
 .footer{
@@ -470,6 +484,18 @@ transform: rotate(-19.628deg);
 flex-shrink: 0;
 
 }
+
+.download-app{
+   margin-top: 350px;
+   padding-bottom: 130px;
+}
+
+
+
+
+
+
+
 
 
 
